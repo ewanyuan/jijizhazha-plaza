@@ -1,80 +1,80 @@
 <!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>全部精选 · 叽叽喳喳广场</title><meta name="description" content="外部讨论的精选阅读、方法和工具线索。支持分类、搜索、阅读标记及本浏览器笔记。"><link rel="icon" href="../assets/bird.svg" type="image/svg+xml"><link rel="stylesheet" href="../assets/style.css"><script type="module" src="../assets/app.js" data-root="../" data-mode="all" data-category="" data-detail="" data-number="6"></script></head>
-    <body><main class="plaza-page"><header class="plaza-header"><div class="brand"><img src="../assets/bird.svg" width="52" height="52" alt=""><div><p class="eyebrow">从讨论里，捡起值得读的东西</p><h1><a href="../index.html">叽叽喳喳广场</a></h1><p class="subtitle">484 条精选 · 195 条重点 · 公开阅读版</p></div></div><a class="header-link" href="../catalog.html">全部目录 ↗</a></header>
-    <div class="reading-intro"><strong>慢慢读，随手记。</strong><span>资料更新：2026-10-14 09:03 · 个人标记只保存在当前浏览器</span></div>
+    <body><main class="plaza-page"><header class="plaza-header"><div class="brand"><img src="../assets/bird.svg" width="52" height="52" alt=""><div><p class="eyebrow">从讨论里，捡起值得读的东西</p><h1><a href="../index.html">叽叽喳喳广场</a></h1><p class="subtitle">529 条精选 · 213 条重点 · 公开阅读版</p></div></div><a class="header-link" href="../catalog.html">全部目录 ↗</a></header>
+    <div class="reading-intro"><strong>慢慢读，随手记。</strong><span>资料更新：2026-10-15 16:32 · 个人标记只保存在当前浏览器</span></div>
     <nav class="plaza-tabs" aria-label="广场内容"><a data-mode="reading" href="../index.html" class="">待读重点</a><a data-mode="all" href="../all/index.html" class="active">全部精选</a><button data-mode="follow">继续关注</button><button data-mode="useful">有用</button><button data-mode="read">已读</button><button data-mode="ignored">已忽略</button><button data-mode="notes">我的笔记</button></nav>
     <form class="search-bar" action="../index.html"><input name="q" type="search" aria-label="搜索广场内容" placeholder="找话题、工具或一段内容"><select name="category" aria-label="按分类筛选"><option value="">全部分类</option><option value="观点方法">观点方法</option><option value="实践经验">实践经验</option><option value="工具资源">工具资源</option><option value="合作机会">合作机会</option><option value="行业变化">行业变化</option><option value="其他">其他</option></select><button type="submit">搜索</button></form>
-    <p class="scope-note">这些是外部讨论的精选整理；个案、观点和待核实说法分别标明。群聊原文、图片和私人笔记留在本机。</p><p id="notice" role="status" aria-live="polite"></p><div id="content"><p class="count">484 条内容 · 每页 12 条</p><div class="plaza-cards"><article class="plaza-card" data-id="56a8e87ca9d6ecb4a08deca9">
-      <div class="card-meta"><span>实践经验</span><time datetime="2026-10-12T17:55:12+08:00">2026-10-12 17:55</time><span>可能有用</span></div>
-      <h2><a href="../cards/56a8e87ca9d6ecb4a08deca9.html">小米模型订阅与 API 用法的成本选择</a></h2>
-      <p class="summary">群友讨论给 DSH 接入小米模型时，是购买会员还是按 API 充值；一人倾向按量充值，称主力仍用 GPT、预计月用量不大，并提到企业充值起充金额较高、已有赠送 Token 可能尚未使用。另一人称小米模型在其短时使用中价格可接受。</p><p class="reason">提供了按量与包月选择、企业起充门槛和赠送额度可能过期等预算线索。</p><p class="action">先核对赠送额度的到期日，再按月均调用量比较订阅和 API 充值。</p>
-      <p class="source-status">经验与观点混合</p>
-      <div class="card-actions"><a class="button" href="../cards/56a8e87ca9d6ecb4a08deca9.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
-    </article><article class="plaza-card" data-id="e8fea59e92c587f15cbc9422">
-      <div class="card-meta"><span>工具资源</span><time datetime="2026-10-12T17:13:35+08:00">2026-10-12 17:13</time><span>可能有用</span></div>
-      <h2><a href="../cards/e8fea59e92c587f15cbc9422.html">CCBaga：Claude 环境维护工具的项目入口与安全审查线索</a></h2>
-      <p class="summary">群友分享 GitHub 项目 CCBaga，并贴出 AI 对其架构的审查摘要。摘要称工具面向 macOS、Linux 和 Windows，包含 Claude 本地数据清理、浏览器指纹与系统设置管理、网络检查等功能；审查肯定了 Rust 核心的路径校验、TOCTOU 检查和原子写入，同时建议重点审查 Python 网络脚本中的 subprocess 调用与 loopback token。项目被描述为帮助在 Claude 地区限制下调整环境，群友提醒这可能违反服务条款且不保证账号安全。群内有人说自己已开项目但仍在观察外部反馈，没人报告完整试用结果。</p><p class="reason">有明确项目入口、功能范围和代码审查关注点；也保留了项目用途和账号风险的限制。</p><p class="action">先读项目源码与 Python 网络脚本，重点核对删除逻辑和命令调用，再决定是否试用。</p>
-      <p class="source-status">经验与观点混合</p>
-      <div class="card-actions"><a class="button" href="../cards/e8fea59e92c587f15cbc9422.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
-    </article><article class="plaza-card" data-id="f8975b2db8c1958965c6599d">
-      <div class="card-meta"><span>实践经验</span><time datetime="2026-10-12T16:32:00+08:00">2026-10-12 16:32</time><span>可能有用</span></div>
-      <h2><a href="../cards/f8975b2db8c1958965c6599d.html">多个额度池与 Opus 5.5 高消耗反馈</a></h2>
-      <p class="summary">群友称 Cursor 的 Cursor/Grok 与其他模型额度分池，两个池子都是月额度；有人认为 Opus 5.5 一个回合耗掉约 70% 月额度，注明使用 high 档但没有请求内容。另有截图被 OCR 识别为 Opus 5.5 API 价格信息，但文字可能有误，无法据此确认单价。</p><p class="reason">高能力模型可能产生明显额度压力，实际消耗受任务与档位影响；预算安排前应先小规模实测。</p><p class="action">用低风险短任务测试不同档位，并对照账单确认计量方式。</p>
-      <p class="source-status">经验与观点混合</p>
-      <div class="card-actions"><a class="button" href="../cards/f8975b2db8c1958965c6599d.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
-    </article><article class="plaza-card" data-id="281b0995a072750f23f9bb61">
-      <div class="card-meta"><span>观点方法</span><time datetime="2026-10-12T16:26:49+08:00">2026-10-12 16:26</time><span>值得读</span></div>
-      <h2><a href="../cards/281b0995a072750f23f9bb61.html">个人 CRM 与任务提醒应适配实际工作节奏</a></h2>
-      <p class="summary">群友分享自己按业务逻辑定制 CRM，认为通用工具未必贴合个人节奏；有人使用飞书机器人记语音和到期提醒，有人依赖实时任务面板，也有人表示自己不会主动打开面板，更习惯消息提醒。讨论说明系统是否被持续使用，取决于工作量、现场工作和提醒方式。</p><p class="reason">这是设计个人 AI 工作台时的重要使用约束：工具必须进入既有工作节奏，否则功能齐全也可能闲置。</p><p class="action">先观察自己习惯看面板还是收提醒，再决定 CRM 的主入口。</p>
-      <p class="source-status">经验与观点混合</p>
-      <div class="card-actions"><a class="button" href="../cards/281b0995a072750f23f9bb61.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
-    </article><article class="plaza-card" data-id="1110c1fab667ae1c19707763">
-      <div class="card-meta"><span>工具资源</span><time datetime="2026-10-12T16:26:49+08:00">2026-10-12 16:26</time><span>可能有用</span></div>
-      <h2><a href="../cards/1110c1fab667ae1c19707763.html">个人 CRM 与任务板：贴合习惯比通用功能更重要</a></h2>
-      <p class="summary">群友认为自己搭建的客户管理系统按个人业务逻辑、节奏和自动化习惯定制，使用顺手；也有人说没有自己的 CRM 做业务会很难受。另有群友表示飞书适合其习惯，而其他人觉得飞书无法满足需求，改做任务板并靠实时记录和提醒防止遗忘。群友分享了 trycompai/crm 作为一个可参考的 CRM 项目，但未描述试用结果。</p><p class="reason">讨论揭示 CRM 的价值取决于业务节奏和实际使用习惯，也提供了开源项目入口作为比较对象。</p><p class="action">浏览 CRM 项目入口，并对照自己的客户跟进流程列出必须保留的功能。</p>
-      <p class="source-status">经验与观点混合</p>
-      <div class="card-actions"><a class="button" href="../cards/1110c1fab667ae1c19707763.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
-    </article><article class="plaza-card" data-id="daa7ed11b26e5acd37f21dc8">
-      <div class="card-meta"><span>实践经验</span><time datetime="2026-10-12T16:19:31+08:00">2026-10-12 16:19</time><span>值得读</span></div>
-      <h2><a href="../cards/daa7ed11b26e5acd37f21dc8.html">Cursor 调用 Claude 的额度池与消耗反馈</a></h2>
-      <p class="summary">群友解释 Cursor 自有模型或 Grok 使用一类额度，Claude 等其他模型使用另一类额度池，并称后者有 20 美元额度。有人报告一句话将额度用到 40%，另有人说纯 Cursor 的 Claude 使用不经用；请求内容和计量规则没有说明。后续还有群友称 Cursor 的两个池子均为月额度。</p><p class="reason">调用 Claude 前了解扣款池和消耗速度，有助于避免误用额度；群友信息可能随订阅方案变动。</p><p class="action">查看自己的 Cursor 额度页面，再用小任务实测消耗比例。</p>
-      <p class="source-status">经验与观点混合</p>
-      <div class="card-actions"><a class="button" href="../cards/daa7ed11b26e5acd37f21dc8.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
-    </article><article class="plaza-card" data-id="48898bb6fca8e5784ce73045">
-      <div class="card-meta"><span>工具资源</span><time datetime="2026-10-12T16:07:47+08:00">2026-10-12 16:07</time><span>可能有用</span></div>
-      <h2><a href="../cards/48898bb6fca8e5784ce73045.html">开源 CRM 项目 trycompai/crm</a></h2>
-      <p class="summary">群友分享 GitHub 项目 trycompai/crm，并简短评价“还行”；没有提供功能细节或实际试用结果。</p><p class="reason">它是讨论个人 CRM 与定制工作台时出现的独立开源参考项目。</p><p class="action">查看项目功能和维护状态，再与自己的客户流程对照。</p>
+    <p class="scope-note">这些是外部讨论的精选整理；个案、观点和待核实说法分别标明。群聊原文、图片和私人笔记留在本机。</p><p id="notice" role="status" aria-live="polite"></p><div id="content"><p class="count">529 条内容 · 每页 12 条</p><div class="plaza-cards"><article class="plaza-card" data-id="2912cf281d1310d83fad4356">
+      <div class="card-meta"><span>实践经验</span><time datetime="2026-10-13T15:04:20+08:00">2026-10-13 15:04</time><span>可能有用</span></div>
+      <h2><a href="../cards/2912cf281d1310d83fad4356.html">用 LoRA 固定 AI 生成的人物形象</a></h2>
+      <p class="summary">针对批量生成或复刻内容时人物形象不稳定的问题，群友建议在本地模型和 ComfyUI 流程中使用参考素材训练 LoRA，以提高形象一致性。对话未提供模型、训练数据量或实际效果验证。</p><p class="reason">给出了视觉内容生产中可尝试的具体技术路线，针对的是角色一致性问题。</p><p class="action">选一个授权清晰的角色素材集，在 ComfyUI 中小规模测试 LoRA 的形象一致性。</p>
       <p class="source-status">讨论观点</p>
-      <div class="card-actions"><a class="button" href="../cards/48898bb6fca8e5784ce73045.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
-    </article><article class="plaza-card" data-id="ed946c1409118f5ad8b3fe89">
-      <div class="card-meta"><span>实践经验</span><time datetime="2026-10-12T14:39:07+08:00">2026-10-12 14:39</time><span>值得读</span></div>
-      <h2><a href="../cards/ed946c1409118f5ad8b3fe89.html">海外订阅支付方式与 Claude 账号风险</a></h2>
-      <p class="summary">群友比较了 Visa、港卡、Google Play、App Store 礼品卡和其他支付工具，讨论年费、管理费、退款及部分卡无法支付服务的经历；另有账号因使用政策被停用、申诉恢复或未恢复的个案。支付成功并不代表账号使用方式安全，群内也没有证据证明某种卡或网络能避免封号。</p><p class="reason">支付渠道选择影响订阅、退款和费用，而账号封禁是独立风险，需分开考虑。</p><p class="action">把支付可用性、退款渠道和服务条款风险分别向发卡行与服务方核实。</p>
+      <div class="card-actions"><a class="button" href="../cards/2912cf281d1310d83fad4356.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
+    </article><article class="plaza-card" data-id="2a180ee7eae1709c1770b1b8">
+      <div class="card-meta"><span>实践经验</span><time datetime="2026-10-13T14:48:41+08:00">2026-10-13 14:48</time><span>可能有用</span></div>
+      <h2><a href="../cards/2a180ee7eae1709c1770b1b8.html">Minimax H3 本地部署的视频生成测试</a></h2>
+      <p class="summary">群友称在配有 4060 Ti 16GB 显卡的设备上本地生成了 10 秒、720p 视频，耗时约 14 至 21 分钟；该说法提到图像理解速度可能影响总耗时。另有讨论询问本地部署是否能提供接口，以及 16GB 显存是否足够，未得到完整对照。</p><p class="reason">提供了一个本地视频生成的硬件、分辨率和耗时参考，适合评估试用门槛。</p><p class="action">用相同分辨率和时长在目标硬件上跑一段短视频，再确认显存、耗时和接口能力。</p>
+      <p class="source-status">群友报告，尚未外部核验</p>
+      <div class="card-actions"><a class="button" href="../cards/2a180ee7eae1709c1770b1b8.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
+    </article><article class="plaza-card" data-id="1c31c24ab629d5f3dca61ed4">
+      <div class="card-meta"><span>实践经验</span><time datetime="2026-10-13T14:14:53+08:00">2026-10-13 14:14</time><span>可能有用</span></div>
+      <h2><a href="../cards/1c31c24ab629d5f3dca61ed4.html">AI 项目、个人偏好与账号订阅风险</a></h2>
+      <p class="summary">群友交流了 GPT Pro、Claude Pro 等订阅的地区、支付渠道和使用经历：有人称通过 Google Play 或礼品卡订阅，也有人报告账号或 Google 账号被封、支付被拒、退款困难；成功案例也存在。另有用户切换账户后 Computer Use、远程控制和 Edge 连接失效，数小时未解决并转工单。均为个别经历，不能当作普遍可行路径。</p><p class="reason">付费渠道、账户状态和工具连接会直接影响使用连续性；对话包含成功与失败的不同案例。</p><p class="action">付费前核对当前地区和平台规则，准备好账号异常时的支持渠道，并避免把单个成功经验视为保证。</p>
       <p class="source-status">经验与观点混合</p>
-      <div class="card-actions"><a class="button" href="../cards/ed946c1409118f5ad8b3fe89.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
-    </article><article class="plaza-card" data-id="e9923d427df2ea32647988a6">
-      <div class="card-meta"><span>实践经验</span><time datetime="2026-10-12T14:39:07+08:00">2026-10-12 14:39</time><span>值得读</span></div>
-      <h2><a href="../cards/e9923d427df2ea32647988a6.html">Claude 调用路径和封号经历：未形成可靠的避封规律</a></h2>
-      <p class="summary">群友讨论通过 Cursor、CC Switch、终端、VS Code 插件或 Grok Bot 使用 Claude，也谈到订阅额度能否用于 API 式调用。有人称账号使用一周多未出现异常；也有人分享终端账号数日内被封、Claude 账号申诉成功或未恢复，以及 GPT 账号在相同网络下状态不同的经历。对封号原因的猜测涉及付款方式、设备、网络、客户端和使用方式，彼此无法相互验证；群里也提醒规则变化和转发分发风险。</p><p class="reason">失败、恢复和持续使用的不同经历揭示了账号风险的不确定性，能避免把单个成功案例误当成保证。</p><p class="action">将调用方式、付款、网络和账号状态分别记录，并阅读服务条款后再决定是否尝试。</p>
+      <div class="card-actions"><a class="button" href="../cards/1c31c24ab629d5f3dca61ed4.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
+    </article><article class="plaza-card" data-id="941d3bc8882fcf8d732bd118">
+      <div class="card-meta"><span>实践经验</span><time datetime="2026-10-13T13:56:11+08:00">2026-10-13 13:56</time><span>值得读</span></div>
+      <h2><a href="../cards/941d3bc8882fcf8d732bd118.html">Grok Bot、微信接入与定时任务的运行限制</a></h2>
+      <p class="summary">群友分享 Grok Bot 的直播录播入口，称搭建后使用体验不错；但也有人反馈 Bot 有时休眠，即使设置定时任务也未必唤醒，微信接入曾可发送消息、次日却失效。另有人称个人 Bot 可每天自动做任务，但遇到邮箱权限阻塞时需要提醒后才继续。</p><p class="reason">展示了 Bot 自动化的实际用途，同时记录常驻运行、渠道连接和权限处理方面的限制。</p><p class="action">先用非关键任务测试唤醒、定时执行、权限恢复和消息回传，再决定是否用于日常流程。</p>
       <p class="source-status">经验与观点混合</p>
-      <div class="card-actions"><a class="button" href="../cards/e9923d427df2ea32647988a6.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
-    </article><article class="plaza-card" data-id="047c85b7dbf810022b32ca66">
-      <div class="card-meta"><span>实践经验</span><time datetime="2026-10-12T14:31:33+08:00">2026-10-12 14:31</time><span>值得读</span></div>
-      <h2><a href="../cards/047c85b7dbf810022b32ca66.html">Cursor / Claude 在编程与 Agent 工作流中的额度和接口讨论</a></h2>
-      <p class="summary">群友称可在 Cursor 中调用 Claude，但 Claude 使用 Cursor 的其他模型额度池，额度有限；也有人讨论 CC Switch、终端、VS Code 插件和自建转发方式。关于是否属于反代、是否违反服务规则、是否容易封号，群友意见不一；有人报告自己使用一周多，也有人分享账号封禁或申诉经历。</p><p class="reason">提供了调用路径、额度来源和真实风险分歧，适合做方案比较；具体规则与安全性仍需以服务方政策和个人实际情况为准。</p><p class="action">先区分官方订阅额度、Cursor 额度池与第三方转发，再核对实际扣费和使用规则。</p>
+      <div class="card-actions"><a class="button" href="../cards/941d3bc8882fcf8d732bd118.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
+    </article><article class="plaza-card" data-id="024ebffb63fa44ce3edb72c9">
+      <div class="card-meta"><span>实践经验</span><time datetime="2026-10-13T13:56:11+08:00">2026-10-13 13:56</time><span>值得读</span></div>
+      <h2><a href="../cards/024ebffb63fa44ce3edb72c9.html">Grok Bot 的常驻、定时任务与权限限制</a></h2>
+      <p class="summary">有人称自己的 Bot 可每天自动执行任务，但遇到邮箱权限阻塞时需要提醒后才继续；另有人报告 Grok Bot 会休眠，即使设置定时任务也不一定唤醒，微信接入曾可发消息、次日却失效。群友还分享了讲解 Grok Bot 的直播录播入口线索：在群历史搜索“飞书”可找到相关内容。</p><p class="reason">既有自动化用途，也记录了长任务、唤醒、权限和渠道连接方面的实际限制。</p><p class="action">先用非关键任务验证唤醒、定时执行、权限恢复和消息回传。</p>
       <p class="source-status">经验与观点混合</p>
-      <div class="card-actions"><a class="button" href="../cards/047c85b7dbf810022b32ca66.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
-    </article><article class="plaza-card" data-id="73019a03ebc1e34df35ef7d6">
-      <div class="card-meta"><span>实践经验</span><time datetime="2026-10-12T14:31:09+08:00">2026-10-12 14:31</time><span>值得读</span></div>
-      <h2><a href="../cards/73019a03ebc1e34df35ef7d6.html">Claude 使用方式、封号经历与风险判断存在分歧</a></h2>
-      <p class="summary">群友讨论通过 Grok Bot、Cursor、CC Switch、终端或 VS Code 插件调用 Claude，并分享不同账号存活时间与封禁经历：有人称一周多未封，有人称新号或小号被封，也有人称旧账号申诉后恢复。群友对可能原因的判断包括付款方式、设备、网络环境、使用习惯和客户端权限，但彼此不一致，未形成可验证的避封规律；另有人提醒规则可能更新，反代分发也有风险。</p><p class="reason">对准备尝试 Claude 的人，真实失败与恢复经历比单一避封建议更有参考价值；讨论同时显示归因不确定，不能把某种支付或客户端说成安全保证。</p><p class="action">把支付、设备、网络和调用方式分别记录，并以账号实际状态验证；不要把个别存活案例当作稳定方案。</p>
+      <div class="card-actions"><a class="button" href="../cards/024ebffb63fa44ce3edb72c9.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
+    </article><article class="plaza-card" data-id="5c279c29a9ffe200959d9771">
+      <div class="card-meta"><span>工具资源</span><time datetime="2026-10-13T13:48:12+08:00">2026-10-13 13:48</time><span>可能有用</span></div>
+      <h2><a href="../cards/5c279c29a9ffe200959d9771.html">GLM 5.3 使用反馈与低价资格线索</a></h2>
+      <p class="summary">群友称 GLM 好用、国产模型中表现不错；另一位回忆年初用 GLM 配合 Claude Code 时体验尚可，月费约 20 多元。有人提到可在闲鱼找“杭城资格”半价，但没有具体渠道或当前价格核实。另有群友称自己拿到了无限 GLM 5.3 token。</p><p class="reason">既有初步使用评价，也有成本和资格获取线索，适合有免费或低价额度的人进一步试用。</p><p class="action">先用现有额度跑一个熟悉任务，与当前常用模型比较效果和耗时。</p>
       <p class="source-status">经验与观点混合</p>
-      <div class="card-actions"><a class="button" href="../cards/73019a03ebc1e34df35ef7d6.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
-    </article><article class="plaza-card" data-id="27bc75fdd5e34bf98587a1fd">
-      <div class="card-meta"><span>观点方法</span><time datetime="2026-10-12T14:21:01+08:00">2026-10-12 14:21</time><span>值得读</span></div>
-      <h2><a href="../cards/27bc75fdd5e34bf98587a1fd.html">dsh / OpenClaw 的 Agent 团队模式与单 Agent + 子代理区分</a></h2>
-      <p class="summary">群友展示 OpenClaw 对协作模式的说明：默认单 Agent 负责所有对话，必要时临时派子代理做并行调查、写代码或长任务；team 模式则配置多个有独立身份、模型和工作区的 Agent，可通过 session 协作。另有群友称 DSH 和 OpenClaw 都可作为 Grok Bot 风格界面的底座方向，但 DSH 方案的目标是扩展插件。</p><p class="reason">区分了临时子代理与长期多 Agent 团队两种协作结构，有助于按任务持续性和角色独立性设计 Agent 系统。</p><p class="action">按是否需要长期独立身份和工作区，决定采用临时子代理还是多 Agent 团队。</p>
+      <div class="card-actions"><a class="button" href="../cards/5c279c29a9ffe200959d9771.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
+    </article><article class="plaza-card" data-id="0d276af5f777f57a249d8a52">
+      <div class="card-meta"><span>实践经验</span><time datetime="2026-10-13T13:43:00+08:00">2026-10-13 13:43</time><span>值得读</span></div>
+      <h2><a href="../cards/0d276af5f777f57a249d8a52.html">GPT-6 Astra 的任务效果与额度消耗</a></h2>
+      <p class="summary">群友称 Astra Ultra 画 CAD 图纸速度快、结果可用，消耗约 5%额度；也有人称使用后没有明显感到比旧模型更聪明。额度反馈差异很大：有人报告 Astra High 13 分钟消耗约 1%，也有人报告 High 加快速模式半小时消耗约 10%，或一小时消耗约 12%。另有一项代码问题由 Astra 一次解决，而 5.6 Sol 试了十次仍未解决；反例是 Astra 长任务会循环自检、进度不前。均为不同任务和套餐下的个人报告，不能直接横向比较。</p><p class="reason">同时呈现能力提升的具体案例、效果差异和高消耗或长任务停滞的反例，有助于判断何时值得调用高档模型。</p><p class="action">选一个可回退的真实难题，记录模型、模式、上下文、结果质量和额度变化，再与常用模型比较。</p>
       <p class="source-status">经验与观点混合</p>
-      <div class="card-actions"><a class="button" href="../cards/27bc75fdd5e34bf98587a1fd.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
-    </article></div><nav class="pagination" aria-label="分页"><a class="button" href="../all/5.html">上一页</a><span>6 / 41</span><a class="button" href="../all/7.html">下一页</a></nav></div>
+      <div class="card-actions"><a class="button" href="../cards/0d276af5f777f57a249d8a52.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
+    </article><article class="plaza-card" data-id="86caa2889445ccbbf434a66e">
+      <div class="card-meta"><span>行业变化</span><time datetime="2026-10-13T12:04:03+08:00">2026-10-13 12:04</time><span>可能有用</span></div>
+      <h2><a href="../cards/86caa2889445ccbbf434a66e.html">Anthropic 针对蒸馏攻击的防护消息</a></h2>
+      <p class="summary">群友转述 Anthropic 称其新防护措施使被提取数据减少约 90% 至 99%，并称已封禁数万相关账号；另有截图文章据此讨论 Claude 误封风险和应避免的操作，但其中因果解释及规避建议没有在群聊中核验。</p><p class="reason">涉及模型蒸馏防护和账号治理的行业动向，也呈现了群友对误封风险的关注。</p><p class="action">查看 Anthropic 原始公告，区分官方披露的数据与群友推测的误封原因。</p>
+      <p class="source-status">经验与观点混合</p>
+      <div class="card-actions"><a class="button" href="../cards/86caa2889445ccbbf434a66e.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
+    </article><article class="plaza-card" data-id="3cba796b90951d2a29f6a3eb">
+      <div class="card-meta"><span>行业变化</span><time datetime="2026-10-13T11:57:05+08:00">2026-10-13 11:57</time><span>可能有用</span></div>
+      <h2><a href="../cards/3cba796b90951d2a29f6a3eb.html">MiniMax 在天猫开设订阅入口的消息</a></h2>
+      <p class="summary">群友转发截图称 MiniMax 入驻天猫开设品牌旗舰店，售卖按月或按年的订阅套餐，并称首单月卡限时优惠；具体套餐名称、价格和优惠期限来自截图 OCR，可能存在识别误差。</p><p class="reason">提供了一个新的模型订阅购买入口线索，可能影响付费和采购选择。</p><p class="action">在购买前核对天猫店铺的官方资质、套餐权益和价格。</p>
+      <p class="source-status">待核实说法</p>
+      <div class="card-actions"><a class="button" href="../cards/3cba796b90951d2a29f6a3eb.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
+    </article><article class="plaza-card" data-id="9c68e305ec61f66f77da4d8a">
+      <div class="card-meta"><span>实践经验</span><time datetime="2026-10-13T11:34:26+08:00">2026-10-13 11:34</time><span>可能有用</span></div>
+      <h2><a href="../cards/9c68e305ec61f66f77da4d8a.html">Claude Code 方案设计、Codex 实施的分工建议</a></h2>
+      <p class="summary">群友建议订阅 Claude Pro 专门产出方案，再由 Codex 实施；该用户称其 Google 账号注册的 Claude 已使用近四个月，网络使用方式较宽泛，但也承认账号是否被封看运气，没有任何方案保证不封。</p><p class="reason">这是明确的跨模型工作流建议，也附带了账号持续使用的个体经验与风险边界。</p><p class="action">先用 Claude 产出一个小任务方案，再由 Codex 实施并比较返工量。</p>
+      <p class="source-status">经验与观点混合</p>
+      <div class="card-actions"><a class="button" href="../cards/9c68e305ec61f66f77da4d8a.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
+    </article><article class="plaza-card" data-id="196fc29c194c182899f33873">
+      <div class="card-meta"><span>合作机会</span><time datetime="2026-10-13T11:10:16+08:00">2026-10-13 11:10</time><span>可能有用</span></div>
+      <h2><a href="../cards/196fc29c194c182899f33873.html">千问企业版工具测试名额线索</a></h2>
+      <p class="summary">群友称有千问企业版的测试名额，正在询问公司是否有多人使用需求；对话中有人表示自己是企业用户，有意了解，但测试申请尚未完成。</p><p class="reason">可能有机会参与企业版测试，适用于有团队办公需求的人。</p><p class="action">如有团队试用需求，确认申请条件、名额和企业版功能范围。</p>
+      <p class="source-status">群友报告，尚未外部核验</p>
+      <div class="card-actions"><a class="button" href="../cards/196fc29c194c182899f33873.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
+    </article><article class="plaza-card" data-id="0cf4a44d4945448b6948e6b1">
+      <div class="card-meta"><span>工具资源</span><time datetime="2026-10-13T10:26:06+08:00">2026-10-13 10:26</time><span>可能有用</span></div>
+      <h2><a href="../cards/0cf4a44d4945448b6948e6b1.html">Hermes Agent 安装体验与本地使用</a></h2>
+      <p class="summary">群友分享 Hermes Agent 的安装界面，并评价初始操作比 OpenClaw 更顺手；之后称体验良好，建议试用 Hermes Bot。对话中没有提供完整部署步骤或长期稳定性数据。</p><p class="reason">是一个可进一步试用的 Agent 工具线索，并包含初始安装和体验反馈。</p><p class="action">按官方安装说明试装 Hermes，并用一个简单 Bot 任务检查可用性。</p>
+      <p class="source-status">群友报告，尚未外部核验</p>
+      <div class="card-actions"><a class="button" href="../cards/0cf4a44d4945448b6948e6b1.html">阅读详情 ↗</a><button data-action="useful">有用</button><button data-action="follow">继续关注</button><button data-action="read">读过了</button><button data-action="ignore">忽略</button></div>
+    </article></div><nav class="pagination" aria-label="分页"><a class="button" href="../all/5.html">上一页</a><span>6 / 45</span><a class="button" href="../all/7.html">下一页</a></nav></div>
     <footer>阅读标记和笔记仅存本浏览器，未同步到本机 WeKnora。<a href="../catalog.html">可直接访问的完整目录</a></footer></main>
     <div id="quote-tools" hidden><button type="button">摘录到笔记</button></div><div id="toast" role="status" aria-live="polite"></div></body></html>
